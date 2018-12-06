@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication
 {
-    public partial class ChatRoom : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,6 +18,13 @@ namespace WebApplication
                     Application["content"] = "";
                 }
             }
+        }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            //Timer,每秒更新一次聊天內容
+            this.TextBox1.Text = Application["content"].ToString();
+            Label1.Text = "" + DateTime.Now.ToLocalTime();
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -44,13 +51,6 @@ namespace WebApplication
                 //清除內容
                 this.TextBox2.Text = "";
             }
-        }
-
-        protected void Timer1_Tick(object sender, EventArgs e)
-        {
-            //Timer,每秒更新一次聊天內容
-            this.TextBox1.Text = Application["content"].ToString();
-            Label1.Text = "" + DateTime.Now.ToLocalTime();
         }
     }
 }

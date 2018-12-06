@@ -10,7 +10,7 @@
 namespace WebApplication {
     
     
-    public partial class ChatRoom {
+    public partial class WebForm1 {
         
         /// <summary>
         /// form1 控制項。
