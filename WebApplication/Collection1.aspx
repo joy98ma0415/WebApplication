@@ -1,4 +1,4 @@
-﻿<%@ Page Title="作品集" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Collection1.aspx.cs" Inherits="WebApplication.Collection1" %>
+﻿<%@ Page Title="ASP.NET作品集" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Collection1.aspx.cs" Inherits="WebApplication.Collection1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -73,7 +73,7 @@
             <h3 class="text-right">-利用ListView顯示資料網頁-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="#">View Project</a>
+            <a class="btn btn-primary" href="ListView">View Project</a>
         </div>
     </div>
     <!-- /.row -->

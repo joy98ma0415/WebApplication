@@ -1,4 +1,4 @@
-﻿<%@ Page Title="作品集" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Collection.aspx.cs" Inherits="WebApplication.Collection" %>
+﻿<%@ Page Title="ASP.NET作品集" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Collection.aspx.cs" Inherits="WebApplication.Collection" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -27,7 +27,6 @@
     </script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
     <script type="text/javascript">
-
         $(function () {
             // See if this is a touch device
             if ('ontouchstart' in window) {

@@ -49,7 +49,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-color:#ff95ca">
             <h2>About Me</h2>
             <p>
                 .
@@ -58,7 +58,7 @@
                 <a class="btn btn-default" href="About">Learn More &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-color:#ff95ca">
             <h2>Content Me</h2>
             <p>
                 &nbsp;
@@ -67,7 +67,7 @@
                 <a class="btn btn-default" href="Contact">Learn More &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-color:#ff95ca">
             <h2>My Collection</h2>
             <p>
                 &nbsp;

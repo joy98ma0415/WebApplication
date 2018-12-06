@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第五作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="FileUpload.aspx.cs" Inherits="WebApplication.FileUpload" %>
+﻿<%@ Page Title="檔案上傳" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="FileUpload.aspx.cs" Inherits="WebApplication.FileUpload" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第一作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="First.aspx.cs" Inherits="WebApplication.First" %>
+﻿<%@ Page Title="資料型態" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="First.aspx.cs" Inherits="WebApplication.First" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

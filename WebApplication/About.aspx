@@ -46,7 +46,7 @@
     <table class="col-md-12" style="width: 100%; background-image: url('images/5-120601094P5-50.gif');">
 
         <tr>
-            <h1 style="border-style: groove; border-width: inherit; border-color: #808000; font-family: 標楷體; color: #800000; text-decoration: underline" class="text-center">自傳</h1>
+            <h1 style="border-style: groove; border-width: inherit; border-color: #808000; font-family: 標楷體; color: #800000; text-decoration: underline" class="text-center">我的自傳</h1>
             <h2 style="font-family: 標楷體">大家好：</h2>
             <h4 style="font-family: 標楷體">我是馬顥心，畢業於中華科技大學 資訊管理系，在校的四年裡，我不斷充實自己，全面發展，以銳意進取和踏實誠信的作風及表現贏得了老師和同學的信任和讚譽。</h4>
             <h4 style="font-family: 標楷體">從小對電腦就有美麗的憧憬，加上興趣的趨使下，選擇育達高職 資料處理科來修業，三年來的學習讓我對各項軟體的應用有相當程度的體會與認識。

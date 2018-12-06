@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ChatRoom" Language="C#" AutoEventWireup="true" CodeBehind="ChatRoom.aspx.cs" Inherits="WebApplication.WebForm1" %>
+﻿<%@ Page Title="聊天室" Language="C#" AutoEventWireup="true" CodeBehind="ChatRoom.aspx.cs" Inherits="WebApplication.WebForm1" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

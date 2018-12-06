@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第六作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication.LoginWebApp.Login" %>
+﻿<%@ Page Title="LoginPage" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication.LoginWebApp.Login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -119,6 +119,8 @@
                     <asp:Button ID="ButtonLogin" runat="server" Text="Login" OnClick="ButtonLogin_Click" />
                     &nbsp;&nbsp;&nbsp;
                         <asp:HyperLink ID="HyperLinkRegister" runat="server" NavigateUrl="~/LoginWebApp/Register.aspx">Register</asp:HyperLink>
+                &nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLinkRegister0" runat="server" NavigateUrl="~/LoginWebApp/ChangePassword.aspx">Change Password</asp:HyperLink>
                 </td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第六作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="LoginHome.aspx.cs" Inherits="WebApplication.LoginWebApp.LoginHome" %>
+﻿<%@ Page Title="LoginHomePage" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="LoginHome.aspx.cs" Inherits="WebApplication.LoginWebApp.LoginHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

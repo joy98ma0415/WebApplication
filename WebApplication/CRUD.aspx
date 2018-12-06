@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第十一作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CRUD.aspx.cs" Inherits="WebApplication.CRUD" %>
+﻿<%@ Page Title="CURD" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CRUD.aspx.cs" Inherits="WebApplication.CRUD" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

@@ -143,6 +143,8 @@
     <Content Include="GuestBook\ViewGuestBook.aspx" />
     <Content Include="img\ImageSlideShow.aspx" />
     <Content Include="img\ImageSlide.xml" />
+    <Content Include="ListView.aspx" />
+    <Content Include="LoginWebApp\ChangePassword.aspx" />
     <Content Include="LoginWebApp\Login.aspx" />
     <Content Include="LoginWebApp\LoginHome.aspx" />
     <Content Include="LoginWebApp\Register.aspx" />
@@ -316,6 +318,20 @@
     </Compile>
     <Compile Include="img\ImageSlideShow.aspx.designer.cs">
       <DependentUpon>ImageSlideShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWebApp\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginWebApp\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginWebApp\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

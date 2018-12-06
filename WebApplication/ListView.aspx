@@ -1,4 +1,4 @@
-﻿<%@ Page Title="For迴圈" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="For.aspx.cs" Inherits="WebApplication.For" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ListView.aspx.cs" Inherits="WebApplication.ListView" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -41,18 +41,11 @@
         });
     </script>
 
-    <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
-
+    <asp:Table ID="TitTbl" runat="server" Height="85" BackColor="Plum"></asp:Table>
     <div>
-        <h1 class="textAlign">For迴圈範例</h1>
+        <h1 class="textAlign">ListView檢視資料網頁</h1>
     </div>
     <div>
-        <asp:TextBox ID="TextBox1" runat="server" placeholder="請輸入數字"></asp:TextBox>
-        &nbsp;
-    <asp:Button ID="ButtonCal" runat="server" Text="計算" OnClick="Button1_Click" />
-        <br />
-        <br />
-        <br />
-        <asp:Label ID="LblMsg" runat="server"></asp:Label>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     </div>
 </asp:Content>

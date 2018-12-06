@@ -1,4 +1,4 @@
-﻿<%@ Page Title="第六作品" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebApplication.LoginWebApp.Register" %>
+﻿<%@ Page Title="RegistrationPage" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebApplication.LoginWebApp.Register" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -88,19 +88,19 @@
     <div>
         <table align="center" cellpadding="3" cellspacing="3" class="auto-style1">
             <tr>
-                <td class="auto-style2" colspan="6">Create A New Account In ASP.NET WebForm</td>
+                <td class="auto-style2" colspan="7">Create A New Account In ASP.NET WebForm</td>
             </tr>
             <tr>
                 <td class="auto-style4" colspan="2">&nbsp;</td>
                 <td class="auto-style4" colspan="2"></td>
-                <td class="auto-style4" colspan="2">&nbsp;</td>
+                <td class="auto-style4" colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style4"></td>
                 <td class="auto-style4" colspan="2">
                     <asp:Label ID="LabelUserName" runat="server" Text="UserName"></asp:Label>
                 </td>
-                <td class="auto-style4" colspan="2">
+                <td class="auto-style4" colspan="3">
                     <asp:TextBox ID="TextBoxUserName" runat="server" Width="205px" Height="15px"></asp:TextBox>
                 </td>
                 <td class="auto-style4"></td>
@@ -110,7 +110,7 @@
                 <td class="auto-style4" colspan="2">
                     <asp:Label ID="LabelPassword" runat="server" Text="Password"></asp:Label>
                 </td>
-                <td class="auto-style4" colspan="2">
+                <td class="auto-style4" colspan="3">
                     <asp:TextBox ID="TextBoxPassword" runat="server" Width="205px" Height="15px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td class="auto-style4">&nbsp;</td>
@@ -120,10 +120,10 @@
                 <td class="auto-style4" colspan="2">
                     <asp:Label ID="LabelGender0" runat="server" Text="Gender"></asp:Label>
                 </td>
-                <td class="auto-style4" colspan="2">
+                <td class="auto-style4" colspan="3">
                     <asp:RadioButton ID="RadioButtonMale" runat="server" Text="Male" />
                     &nbsp;&nbsp;&nbsp; &nbsp;
-                        <asp:RadioButton ID="RadioButtonFeMale" runat="server" Text="FeMale" />
+                        <asp:RadioButton ID="RadioButtonFeMale" runat="server" Text="Female" />
                 </td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>
@@ -132,14 +132,77 @@
                 <td class="auto-style4" colspan="2">
                     <asp:Label ID="LabelEmail" runat="server" Text="Email"></asp:Label>
                 </td>
-                <td class="auto-style4" colspan="2">
+                <td class="auto-style4" colspan="3">
                     <asp:TextBox ID="TextBoxEmail" runat="server" Width="205px" Height="15px" TextMode="Email"></asp:TextBox>
                 </td>
                 <td class="auto-style4"></td>
             </tr>
             <tr>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4" colspan="2">
+                    <asp:Label ID="Label1" runat="server" Text="請選擇您的題目："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:DropDownList ID="DropDownListQuestion" runat="server" Height="39px" Width="261px">
+                        <asp:ListItem>請選擇您的問題</asp:ListItem>
+                        <asp:ListItem>您的出生地？</asp:ListItem>
+                        <asp:ListItem>您養的寵物名字？</asp:ListItem>
+                        <asp:ListItem>您的暱稱</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style4">
+                    <asp:Label ID="Label4" runat="server" Text="請輸入您的答案："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:TextBox ID="TextBoxQuestion" runat="server" Width="205px" Height="15px" TextMode="Email"></asp:TextBox>
+                </td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4" colspan="2">
+                    <asp:Label ID="Label2" runat="server" Text="請選擇您的題目："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:DropDownList ID="DropDownListQuestion2" runat="server" Height="39px" Width="261px">
+                        <asp:ListItem>請選擇您的問題</asp:ListItem>
+                        <asp:ListItem>您的出生地？</asp:ListItem>
+                        <asp:ListItem>您養的寵物名字？</asp:ListItem>
+                        <asp:ListItem>您的暱稱</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style4">
+                    <asp:Label ID="Label5" runat="server" Text="請輸入您的答案："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:TextBox ID="TextBoxQuestion2" runat="server" Width="205px" Height="15px" TextMode="Email"></asp:TextBox>
+                </td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style4" colspan="2">
+                    <asp:Label ID="Label3" runat="server" Text="請選擇您的題目："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:DropDownList ID="DropDownListQuestion3" runat="server" Height="39px" Width="261px">
+                        <asp:ListItem>請選擇您的問題</asp:ListItem>
+                        <asp:ListItem>您的出生地？</asp:ListItem>
+                        <asp:ListItem>您養的寵物名字？</asp:ListItem>
+                        <asp:ListItem>您的暱稱</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style4">
+                    <asp:Label ID="Label6" runat="server" Text="請輸入您的答案："></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:TextBox ID="TextBoxQuestion3" runat="server" Width="205px" Height="15px" TextMode="Email"></asp:TextBox>
+                </td>
+                <td class="auto-style4">&nbsp;</td>
+            </tr>
+            <tr>
                 <td class="auto-style4"></td>
-                <td class="auto-style5" colspan="4">
+                <td class="auto-style5" colspan="5">
                     <asp:Button ID="ButtonRegister" runat="server" OnClick="ButtonRegister_Click" Text="Create User" />
                 </td>
                 <td class="auto-style4"></td>
@@ -147,7 +210,7 @@
             <tr>
                 <td class="auto-style4" colspan="2"></td>
                 <td class="auto-style4" colspan="2"></td>
-                <td class="auto-style4" colspan="2"></td>
+                <td class="auto-style4" colspan="3"></td>
             </tr>
         </table>
     </div>
