@@ -114,6 +114,7 @@
     <Content Include="About.aspx" />
     <Content Include="BMI.aspx" />
     <Content Include="Calendar.aspx" />
+    <Content Include="ChatRoom.aspx" />
     <Content Include="Collection.aspx" />
     <Content Include="Collection1.aspx" />
     <Content Include="Collection2.aspx" />
@@ -147,6 +148,7 @@
     <Content Include="LoginWebApp\LoginHome.aspx" />
     <Content Include="LoginWebApp\Register.aspx" />
     <Content Include="MasterPage.Master" />
+    <None Include="Properties\PublishProfiles\CollectionApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\01.png" />
     <Content Include="images\3arrows_cyc.jpg" />
@@ -227,6 +229,13 @@
     </Compile>
     <Compile Include="Calendar.aspx.designer.cs">
       <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.designer.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Collection.aspx.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
