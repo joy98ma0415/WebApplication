@@ -125,6 +125,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="CRUD.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DropDownList.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FileUpload.aspx" />
     <Content Include="First.aspx" />
@@ -141,6 +142,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="GuestBook\GuestBook.aspx" />
     <Content Include="GuestBook\ViewGuestBook.aspx" />
+    <Content Include="ImageCRUD\ImageCRUD.aspx" />
     <Content Include="img\ImageSlideShow.aspx" />
     <Content Include="img\ImageSlide.xml" />
     <Content Include="LoginWebApp\ChangePassword.aspx" />
@@ -174,6 +176,7 @@
     <Content Include="img\img03.jpg" />
     <Content Include="img\img04.jpg" />
     <Content Include="img\img05.jpg" />
+    <Content Include="Repeater.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -203,6 +206,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Time.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -273,6 +277,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DropDownList.aspx.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDownList.aspx.designer.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FileUpload.aspx.cs">
       <DependentUpon>FileUpload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -310,6 +321,13 @@
     </Compile>
     <Compile Include="GuestBook\ViewGuestBook.aspx.designer.cs">
       <DependentUpon>ViewGuestBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageCRUD\ImageCRUD.aspx.cs">
+      <DependentUpon>ImageCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageCRUD\ImageCRUD.aspx.designer.cs">
+      <DependentUpon>ImageCRUD.aspx</DependentUpon>
     </Compile>
     <Compile Include="img\ImageSlideShow.aspx.cs">
       <DependentUpon>ImageSlideShow.aspx</DependentUpon>
@@ -354,12 +372,26 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repeater.aspx.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repeater.aspx.designer.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Time.aspx.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Time.aspx.designer.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

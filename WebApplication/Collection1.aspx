@@ -53,10 +53,10 @@
         <div class="col-md-5">
             <h1>Project Six</h1>
             <h3>第六個ASP.NET網頁</h3>
-            <h3 class="text-right">-登入系統網頁版-</h3>
+            <h3 class="text-right">-Repeater Control顯示資料網頁-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="LoginWebApp/Login.aspx">View Project</a>
+            <a class="btn btn-primary" href="Repeater.aspx">View Project</a>
         </div>
     </div>
     <!-- /.row -->
@@ -70,10 +70,10 @@
         <div class="col-md-5">
             <h1>Project Seven</h1>
             <h3>第七個ASP.NET網頁</h3>
-            <h3 class="text-right">-利用ListView顯示資料網頁-</h3>
+            <h3 class="text-right">-利用DropDownList顯示資料網頁-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="ListView">View Project</a>
+            <a class="btn btn-primary" href="DropDownList.aspx">View Project</a>
         </div>
     </div>
     <!-- /.row -->
@@ -104,10 +104,10 @@
         <div class="col-md-5">
             <h1>Project Nine</h1>
             <h3>第九個ASP.NET網頁</h3>
-            <h3 class="text-right">-寄送Email網頁版-</h3>
+            <h3 class="text-right">-圖片CRUD範例網頁-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="#">View Project</a>
+            <a class="btn btn-primary" href="#">View Projectt</a>
         </div>
     </div>
     <!-- /.row -->
@@ -121,10 +121,10 @@
         <div class="col-md-5">
             <h1>Project Ten</h1>
             <h3>第十個ASP.NET網頁</h3>
-            <h3 class="text-right">-Repeater Control顯示資料網頁-</h3>
+            <h3 class="text-right">-登入系統網頁版-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="#">View Project</a>
+            <a class="btn btn-primary" href="LoginWebApp/Login.aspx">View Project</a>
         </div>
     </div>
     <!-- /.row -->

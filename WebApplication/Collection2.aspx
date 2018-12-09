@@ -148,12 +148,6 @@
             <li class="page-item">
                 <a class="page-link" href="Collection2">3</a>
             </li>
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </li>
         </ul>
     </div>
 </asp:Content>
