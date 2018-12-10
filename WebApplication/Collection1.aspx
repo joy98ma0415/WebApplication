@@ -42,6 +42,13 @@
     </script>
 
     <asp:Table ID="TitTbl" runat="server" Height="85" BackColor="Plum"></asp:Table>
+    <br />
+    <br />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        <br /><br />
+        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+    </asp:Panel>
 
     <h1 class="text-center">我的ASP.NET作品集</h1>
     <br />
@@ -107,7 +114,7 @@
             <h3 class="text-right">-圖片CRUD範例網頁-</h3>
             <br />
             <br />
-            <a class="btn btn-primary" href="#">View Projectt</a>
+            <a class="btn btn-primary" href="ImageCRUD/ImageCRUD.aspx">View Projectt</a>
         </div>
     </div>
     <!-- /.row -->

@@ -28,9 +28,7 @@ namespace WebApplication
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            DateTime dt = DateTime.Now;
-            String dtString = dt.ToString("yyyy-MM-dd HH:mm:ss");
-            LblMsg4.Text = "現在時間： " + dtString;
+            LblMsg4.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
         }
     }
 }

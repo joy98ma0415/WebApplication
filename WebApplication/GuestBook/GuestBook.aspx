@@ -42,6 +42,13 @@
         });
     </script>
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
+    <br />
+    <br />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        <br /><br />
+        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+    </asp:Panel>
 
     <h1 class="textAlign">訪客留言板</h1>
     <br />

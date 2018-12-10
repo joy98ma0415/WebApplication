@@ -24,7 +24,7 @@ namespace WebApplication
         {
             //Timer,每秒更新一次聊天內容
             this.TextBox1.Text = Application["content"].ToString();
-            Label1.Text = "" + DateTime.Now.ToLocalTime();
+            Label1.Text = "" + DateTime.UtcNow.AddHours(08);
         }
 
         protected void Button2_Click(object sender, EventArgs e)

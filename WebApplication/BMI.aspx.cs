@@ -32,5 +32,10 @@ namespace WebApplication
             OutputLabel評語.Text = "評語：" + Message;
             OutputLabelMessage.Text = "身高 = " + Height * 100 + "公分" + "," + "體重 = " + Weight + "公斤";
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Label3.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
+        }
     }
 }

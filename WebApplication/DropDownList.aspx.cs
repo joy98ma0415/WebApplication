@@ -67,5 +67,10 @@ namespace WebApplication
                 PanelPHP.Visible = true;
             }
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Label1.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
+        }
     }
 }

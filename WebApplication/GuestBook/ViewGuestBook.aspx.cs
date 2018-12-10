@@ -11,7 +11,11 @@ namespace WebApplication.GuestBook
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Label1.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
         }
     }
 }

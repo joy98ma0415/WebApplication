@@ -48,6 +48,15 @@
         }
     </style>
     <asp:Table ID="HeaderTable" runat="server" BackColor="Plum" Height="85"></asp:Table>
+    <br />
+    <br />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        <br /><br />
+        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+    </asp:Panel>
+    <br />
+    <br />
     <div>
         <h1></h1>
     </div>

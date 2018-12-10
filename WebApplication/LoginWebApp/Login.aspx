@@ -80,6 +80,15 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
     <br />
+    <br />
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        <br />
+        <br />
+        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+    </asp:Panel>
+    <br />
+    <br />
     <div>
         <table align="center" class="auto-style1">
             <tr>
@@ -119,7 +128,7 @@
                     <asp:Button ID="ButtonLogin" runat="server" Text="Login" OnClick="ButtonLogin_Click" />
                     &nbsp;&nbsp;&nbsp;
                         <asp:HyperLink ID="HyperLinkRegister" runat="server" NavigateUrl="~/LoginWebApp/Register.aspx">Register</asp:HyperLink>
-                &nbsp;&nbsp;
+                    &nbsp;&nbsp;
                         <asp:HyperLink ID="HyperLinkRegister0" runat="server" NavigateUrl="~/LoginWebApp/ChangePassword.aspx">Change Password</asp:HyperLink>
                 </td>
                 <td class="auto-style4">&nbsp;</td>

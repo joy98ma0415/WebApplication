@@ -43,6 +43,14 @@
     </script>
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
+    <asp:Panel ID="Panel1" runat="server">
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+    </asp:Panel>
+    <br />
+    <br />
     <table class="col-md-12" style="width: 100%; background-image: url('images/5-120601094P5-50.gif');">
 
         <tr>
