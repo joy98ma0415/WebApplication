@@ -52,10 +52,5 @@ namespace WebApplication.ImageCRUD
             Label1.ForeColor = System.Drawing.Color.Red;
             show_data();
         }
-
-        protected void Timer1_Tick(object sender, EventArgs e)
-        {
-            Label2.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
-        }
     }
 }

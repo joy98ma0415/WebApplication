@@ -1,4 +1,4 @@
-﻿<%@ Page Title="圖片CRUD" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ImageCRUD.aspx.cs" Inherits="WebApplication.ImageCRUD.ImageCRUD" %>
+﻿<%@ Page Title="圖片CRUD範例" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ImageCRUD.aspx.cs" Inherits="WebApplication.ImageCRUD.ImageCRUD" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -44,14 +44,8 @@
     <asp:Table ID="TitleTabel" runat="server" Height="85" BackColor="Plum"></asp:Table>
     <br />
     <br />
-    <asp:Panel ID="Panel1" runat="server">
-        <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
-        <br />
-        <br />
-        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
-    </asp:Panel>
     <div>
-        <h1 class="textAlign">圖片CRUD範例--CRUD image</h1>
+        <h1 class="textAlign">圖片CRUD範例</h1>
     </div>
     <div>
         <asp:Table ID="Table1" runat="server" Height="45">

@@ -34,7 +34,7 @@ namespace WebApplication.LoginWebApp
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into RegistrationTable values ('" + TextBoxUserName.Text + "' , '" + TextBoxEmail.Text + "' , '" + TextBoxPassword.Text + "' , '" + gender + "' , '" + TextBoxQuestion.Text + "' , '" + TextBoxQuestion2.Text + "' , '" + TextBoxQuestion3.Text + "')";
+                cmd.CommandText = "insert into RegistrationTable values ('" + TextBoxUserName.Text + "' , '" + TextBoxEmail.Text + "' , '" + TextBoxPassword.Text + "' , '" + gender + "')";
                 cmd.ExecuteNonQuery();
                 con.Close();
 
