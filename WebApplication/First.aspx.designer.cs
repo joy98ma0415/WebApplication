@@ -67,13 +67,22 @@ namespace WebApplication {
         protected global::System.Web.UI.WebControls.Label SexLbl;
         
         /// <summary>
-        /// SexTxt 控制項。
+        /// RadioButtonMale 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SexTxt;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButtonMale;
+        
+        /// <summary>
+        /// RadioButtonFemale 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButtonFemale;
         
         /// <summary>
         /// MarriageLbl 控制項。
@@ -85,13 +94,22 @@ namespace WebApplication {
         protected global::System.Web.UI.WebControls.Label MarriageLbl;
         
         /// <summary>
-        /// MarriageTxt 控制項。
+        /// CheckBoxSingle 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MarriageTxt;
+        protected global::System.Web.UI.WebControls.CheckBox CheckBoxSingle;
+        
+        /// <summary>
+        /// CheckBoxMarried 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBoxMarried;
         
         /// <summary>
         /// EnterBtn 控制項。
@@ -146,23 +164,5 @@ namespace WebApplication {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblMsg;
-        
-        /// <summary>
-        /// LblMsg4 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblMsg4;
-        
-        /// <summary>
-        /// Timer1 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.Timer Timer1;
     }
 }

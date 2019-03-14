@@ -9,9 +9,10 @@ namespace WebApplication
 {
     public partial class SiteMaster : MasterPage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Timer1_Tick(object sender, EventArgs e)
         {
-
+            Label1.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
+            Label1.ForeColor = System.Drawing.Color.CadetBlue;
         }
     }
 }

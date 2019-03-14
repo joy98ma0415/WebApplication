@@ -58,11 +58,15 @@
         <br />
         <br />
         <asp:Label ID="SexLbl" runat="server" Text="性別："></asp:Label>
-        <asp:TextBox ID="SexTxt" runat="server" placeholder="請輸入性別" required title="這是必填欄位"></asp:TextBox>
+        <asp:RadioButton ID="RadioButtonMale" runat="server" Text="Male" />
+&nbsp;&nbsp;&nbsp;
+        <asp:RadioButton ID="RadioButtonFemale" runat="server" Text="Female" />
         <br />
         <br />
         <asp:Label ID="MarriageLbl" runat="server" Text="婚姻狀態："></asp:Label>
-        <asp:TextBox ID="MarriageTxt" runat="server" placeholder="請輸入婚姻狀態" required title="這是必填欄位"></asp:TextBox>
+        <asp:CheckBox ID="CheckBoxSingle" runat="server" Text="Single" />
+&nbsp;&nbsp;&nbsp;
+        <asp:CheckBox ID="CheckBoxMarried" runat="server" Text="Married" />
         <br />
         <br />
         <asp:Button ID="EnterBtn" runat="server" Text="Enter" OnClick="EnterBtn_Click" />
@@ -71,25 +75,22 @@
         <br />
         <br />
         <asp:Label ID="LblMsg0" runat="server"></asp:Label>
-        <%--Name--%>
+        <%--LoginTime--%>
         <br />
         <asp:Label ID="LblMsg1" runat="server"></asp:Label>
-        <%--Age--%>
+        <%--NowTime--%>
         <br />
         <asp:Label ID="LblMsg2" runat="server"></asp:Label>
-        <%--Sex--%>
+        <%--LoginTime--%>
         <br />
         <asp:Label ID="LblMsg3" runat="server"></asp:Label>
-        <%--Marriage--%>
+        <%--NowTime--%>
         <br />
         <asp:Label ID="LblMsg" runat="server"></asp:Label>
         <%--LoginTime--%>
         <br />
-        <asp:Label ID="LblMsg4" runat="server"></asp:Label>
         <%--NowTime--%>
         <br />
-        <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="1000">
-        </asp:Timer>
         <br />
         <br />
     </div>

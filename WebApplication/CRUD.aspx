@@ -47,13 +47,6 @@
     </script>
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Pink"></asp:Table>
-    <br />
-    <br />
-    <asp:Panel ID="Panel1" runat="server">
-        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
-        <br /><br />
-        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
-    </asp:Panel>
 
     <div>
         <h1 class="text-center">具備CRUD功能的客戶資料網頁</h1>
@@ -104,7 +97,7 @@
             <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
         </asp:DetailsView>
         <br />
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataKeyNames="客戶編號" DataSourceID="SqlDataSource1" PageSize="5" Width="508px">
+        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataKeyNames="客戶編號" DataSourceID="SqlDataSource1" PageSize="5" Width="665px">
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ButtonType="Button" />
                 <asp:BoundField DataField="客戶編號" HeaderText="客戶編號" ReadOnly="True" SortExpression="客戶編號" />

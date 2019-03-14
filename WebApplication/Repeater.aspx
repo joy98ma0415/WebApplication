@@ -62,13 +62,6 @@
             }
     </style>
     <asp:Table ID="TitleTable" runat="server" Height="85" BackColor="Plum"></asp:Table>
-        <br />
-    <br />
-    <asp:Panel ID="Panel1" runat="server">
-        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
-        <br /><br />
-        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
-    </asp:Panel>
     <div>
         <h1 class="textAlign">Repeater Control範例</h1>
     </div>
@@ -106,4 +99,12 @@
             </ItemTemplate>
         </asp:Repeater>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 </asp:Content>
