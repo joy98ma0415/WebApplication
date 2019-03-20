@@ -205,7 +205,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top" style="left: 0; right: 0; top: 0; height: 115px; background-image: url('/images/waves_cyc.jpg'); color: #000000;">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="left: 0; right: 0; top: 0; height: 100px; background-image: url('/images/waves_cyc.jpg'); color: #000000;">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -213,7 +213,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/index.html">
+                    <a class="navbar-brand" runat="server" href="https://portfoliowebapplication.azurewebsites.net">
                         <span class="auto-style1"><strong>我的作品集</strong></span></a><br />
                     <br />
                     <br />
@@ -229,12 +229,12 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/Default">首頁</a></li>
+                        <li><a runat="server" href="https://portfoliowebapplication.azurewebsites.net">首頁</a></li>
                         <li><a runat="server" href="~/About">關於</a></li>
                         <li><a runat="server" href="~/index.html">作品集</a></li>
-                        <li><a runat="server" href="~/GuestBook/GuestBook">留言板</a></li>
-                        <li><a runat="server" href="~/ChatRoom">聊天室</a></li>
-<%--                        <li><a runat="server" href="">公告欄</a></li>--%>
+                        <li><a runat="server" href="~/">訪客留言板</a></li>
+                        <li><a runat="server" href="https://boardweb.azurewebsites.net">公佈欄</a></li>
+                        <li><a runat="server" href="~/404Page.html">部落格</a></li>
                     </ul>
                 </div>
             </div>

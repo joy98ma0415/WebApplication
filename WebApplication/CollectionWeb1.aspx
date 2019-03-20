@@ -52,7 +52,7 @@
         <div class="col-md-5">
             <h1>Project One</h1>
             <h3>第一個ASP.NET網頁</h3>
-            <h3 class="text-right">-資料型別範例網頁-</h3>
+            <h3 class="text-right">- 資料型別範例 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="First">View Project</a>
@@ -68,7 +68,7 @@
         <div class="col-md-5">
             <h1>Project Two</h1>
             <h3>第二個ASP.NET網頁</h3>
-            <h3 class="text-right">-BMI計算網頁-</h3>
+            <h3 class="text-right">- BMI計算 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="BMI">View Project</a>
@@ -84,7 +84,7 @@
         <div class="col-md-5">
             <h1>Project Three</h1>
             <h3>第三個ASP.NET網頁</h3>
-            <h3 class="text-right">-For迴圈網頁-</h3>
+            <h3 class="text-right">- For迴圈 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="For">View Project</a>
@@ -100,7 +100,7 @@
         <div class="col-md-5">
             <h1>Project Four</h1>
             <h3>第四個ASP.NET網頁</h3>
-            <h3 class="text-right">-計算機網頁版-</h3>
+            <h3 class="text-right">- 計算機 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="Calculate.aspx">View Project</a>
@@ -116,7 +116,7 @@
         <div class="col-md-5">
             <h1>Project Five</h1>
             <h3>第五個ASP.NET網頁</h3>
-            <h3 class="text-right">-檔案上傳網頁-</h3>
+            <h3 class="text-right">- 檔案上傳 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="FileUpload.aspx">View Project</a>
@@ -128,7 +128,7 @@
     <div class="textAlign">
         <ul class="pagination justify-content-center" style="width: 479px; margin-left: 370px">
             <li>
-                <a class="page-link" href="CollectionWeb1">1</a>
+                <a class="page-link" style="background-color:deeppink" href="CollectionWeb1">1</a>
             </li>
             <li class="page-item">
                 <a class="page-link" href="CollectionWeb2">2</a>

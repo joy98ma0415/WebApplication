@@ -52,7 +52,7 @@
         <div class="col-md-5">
             <h1>Project Eleven</h1>
             <h3>第十一個ASP.NET網頁</h3>
-            <h3 class="text-right">-新聞發布系統網頁-</h3>
+            <h3 class="text-right">- 新聞發布系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="https://newsweb.azurewebsites.net/">View Project</a>
@@ -69,7 +69,7 @@
         <div class="col-md-5">
             <h1>Project Twelve</h1>
             <h3>第十二個ASP.NET網頁</h3>
-            <h3 class="text-right">-線上訂購系統網頁-</h3>
+            <h3 class="text-right">- 線上訂購系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="Drink_Order_2.aspx">View Project</a>
@@ -86,7 +86,7 @@
         <div class="col-md-5">
             <h1>Project Thirteen</h1>
             <h3>第十三個ASP.NET網頁</h3>
-            <h3 class="text-right">-學生管理系統網頁-</h3>
+            <h3 class="text-right">- 學生管理系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="https://studentmsweb.azurewebsites.net/">View Project</a>
@@ -103,7 +103,7 @@
         <div class="col-md-5">
             <h1>Project Fourteen</h1>
             <h3>第十四個ASP.NET網頁</h3>
-            <h3 class="text-right">-通訊錄管理系統網頁-</h3>
+            <h3 class="text-right">- 通訊錄管理系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="PhoneBook.aspx">View Project</a>
@@ -145,7 +145,7 @@
                 <a class="page-link" href="CollectionWeb2">2</a>
             </li>
             <li class="page-item">
-                <a class="page-link" href="CollectionWeb3">3</a>
+                <a class="page-link" style="background-color:deeppink" href="CollectionWeb3">3</a>
             </li>
             <li class="page-item">
                 <a class="page-link" href="index1.html">4</a>

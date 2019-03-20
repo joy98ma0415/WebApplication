@@ -45,35 +45,35 @@
     <div>
         <h1 class="textAlign">Control類型範例</h1>
         <p class="textAlign">&nbsp;</p>
-        <table align="center" cellpadding="3" cellspacing="3" style="width: 90%; background-color: #FFFF99">
+        <table align="center" cellpadding="3" cellspacing="3" style="width: 1085px; background-color: #FFFF99; height: 215px;">
             <tr>
-                <td class="modal-sm" style="width: 359px; height: 40px">
+                <td class="modal-sm" style="width: 541px; height: 43px">
                     <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Repeater.aspx">Repeater Control</asp:LinkButton></td>
-                <td style="height: 40px">
+                <td style="height: 43px; width: 541px;">
                     <asp:LinkButton ID="LinkButton6" runat="server" PostBackUrl="~/TreeView/TreeView.aspx">TreeView Control</asp:LinkButton>
                 </td>
             </tr>
             <tr>
-                <td class="modal-sm" style="width: 359px; height: 40px">
+                <td class="modal-sm" style="width: 541px; height: 43px">
                     <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/DropDownList.aspx">DropDownList Control</asp:LinkButton></td>
-                <td style="height: 40px">
+                <td style="height: 43px; width: 541px;">
                     <asp:LinkButton ID="LinkButton7" runat="server" PostBackUrl="~/">ListBox Control</asp:LinkButton></td>
             </tr>
             <tr>
-                <td class="modal-sm" style="width: 359px; height: 40px">
+                <td class="modal-sm" style="width: 541px; height: 43px">
                     <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/DataList/DataList.aspx">DataList Control</asp:LinkButton></td>
-                <td style="height: 40px">&nbsp;</td>
+                <td style="height: 43px; width: 541px;">&nbsp;</td>
             </tr>
             <tr>
-                <td class="modal-sm" style="width: 359px; height: 40px">
+                <td class="modal-sm" style="width: 541px; height: 43px">
                     <asp:LinkButton ID="LinkButton5" runat="server" PostBackUrl="~/MultiView.aspx">MultiView Control</asp:LinkButton></td>
-                <td style="height: 40px">&nbsp;</td>
+                <td style="height: 43px; width: 541px;">&nbsp;</td>
             </tr>
             <tr>
-                <td class="modal-sm" style="width: 359px; height: 39px">
+                <td class="modal-sm" style="width: 541px; height: 43px">
                     <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/CRUD.aspx">GirdView Control</asp:LinkButton>
                 </td>
-                <td style="height: 40px">&nbsp;</td>
+                <td style="height: 43px; width: 541px;">&nbsp;</td>
             </tr>
         </table>
         <br />

@@ -67,13 +67,25 @@
         <br />
         <asp:SqlDataSource ID="SqlDataSource_Order_M" runat="server"
             ConnectionString="<%$ ConnectionStrings:CollectionWebApp_dbConnectionString %>"
-            InsertCommand="INSERT INTO [Drink_Order_M] ([order_time], [user_name], [user_phone], [memo]) VALUES (getdate(), @user_name, @user_phone, @memo)" OnInserted="SqlDataSource_Order_M_Inserted">
+            InsertCommand="INSERT INTO [Drink_Order_M] ([order_time], [user_name], [user_phone], [memo]) VALUES (getdate(),@user_name, @user_phone, @memo)" OnInserted="SqlDataSource_Order_M_Inserted" 
+            DeleteCommand="DELETE FROM [Drink_Order_M] WHERE [id] = @id" 
+            SelectCommand="SELECT * FROM [Drink_Order_M]" 
+            UpdateCommand="UPDATE [Drink_Order_M] SET [order_time] = @order_time, [user_name] = @user_name, [user_phone] = @user_phone, [memo] = @memo WHERE [id] = @id">
+            <DeleteParameters>
+                <asp:Parameter Name="id" Type="Int32" />
+            </DeleteParameters>
             <InsertParameters>
-                <asp:Parameter Name="order_time" Type="DateTime" />
                 <asp:ControlParameter ControlID="TextBox1" Name="user_name" PropertyName="Text" Type="String" />
                 <asp:ControlParameter ControlID="TextBox2" Name="user_phone" PropertyName="Text" Type="String" />
                 <asp:ControlParameter ControlID="TextBox3" Name="memo" PropertyName="Text" Type="String" />
             </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="order_time" Type="DateTime" />
+                <asp:Parameter Name="user_name" Type="String" />
+                <asp:Parameter Name="user_phone" Type="String" />
+                <asp:Parameter Name="memo" Type="String" />
+                <asp:Parameter Name="id" Type="Int32" />
+            </UpdateParameters>
         </asp:SqlDataSource>
         <br />
         <hr />
@@ -87,10 +99,10 @@
         OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged"
         AutoPostBack="True">
     </asp:DropDownList>
-            </span>
             <asp:SqlDataSource ID="SqlDataSource_Drink" runat="server"
                 ConnectionString="<%$ ConnectionStrings:CollectionWebApp_dbConnectionString %>"
                 SelectCommand="SELECT [id], [drink_name] FROM [Drink_Product]"></asp:SqlDataSource>
+            </span>
             &nbsp;&nbsp;
 
     <span class="style6">

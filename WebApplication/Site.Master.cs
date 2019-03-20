@@ -11,7 +11,7 @@ namespace WebApplication
     {
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            Label1.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08);
+            Label1.Text = "現在時間是： " + DateTime.UtcNow.AddHours(08).ToString("yyyy-MM-dd HH:mm:ss");
             Label1.ForeColor = System.Drawing.Color.CadetBlue;
         }
     }

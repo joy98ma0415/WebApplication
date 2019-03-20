@@ -52,7 +52,7 @@
         <asp:Label ID="HeightLbl" runat="server" Text="身高"></asp:Label>
         &nbsp;<asp:TextBox ID="HeightTextBox" runat="server" placeholder="請輸入身高"></asp:TextBox>
         <asp:Label ID="Label1" runat="server" Text="m"></asp:Label>
-        <br />
+        &nbsp;<br />
         <br />
         <asp:Label ID="WeightLbl" runat="server" Text="體重"></asp:Label>
         &nbsp;<asp:TextBox ID="WeightTextBox" runat="server" placeholde="請輸入體重"></asp:TextBox>
@@ -63,7 +63,7 @@
         <br />
         <br />
         <br />
-        <asp:Label ID="LabelMessage" runat="server" ForeColor="Red"></asp:Label>
+                <asp:Label ID="OutputLabelMessage" runat="server"></asp:Label>
         <br />
         <asp:Label ID="LabelMessage0" runat="server" ForeColor="Red"></asp:Label>
         <br />
@@ -71,6 +71,6 @@
         <br />
         <asp:Label ID="OutputLabel評語" runat="server"></asp:Label>
         <br />
-        <asp:Label ID="OutputLabelMessage" runat="server"></asp:Label>
+        <asp:Label ID="LabelMessage" runat="server" ForeColor="Red"></asp:Label>
     </div>
 </asp:Content>

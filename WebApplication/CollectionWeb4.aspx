@@ -53,7 +53,7 @@
         <div class="col-md-5">
             <h1>Project Sixteen</h1>
             <h3>第十六個ASP.NET網頁</h3>
-            <h3 class="text-right">-備忘錄管理系統網頁-</h3>
+            <h3 class="text-right">- 備忘錄管理系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary" href="https://memoweb.azurewebsites.net/">View Project</a>
@@ -70,7 +70,7 @@
         <div class="col-md-5">
             <h1>Project Seventeen</h1>
             <h3>第十七個ASP.NET網頁</h3>
-            <h3 class="text-right">-圖書管理系統網頁-</h3>
+            <h3 class="text-right">- 圖書管理系統 -</h3>
             <br />
             <br />
             <a class="btn btn-primary">View Project</a>
@@ -149,7 +149,7 @@
                 <a class="page-link" href="CollectionWeb3">3</a>
             </li>
             <li class="page-item">
-                <a class="page-link" href="CollectionWeb4">4</a>
+                <a class="page-link" style="background-color:deeppink" href="CollectionWeb4">4</a>
             </li>
             <li class="page-item">
                 <a class="page-link" href="CollectionWeb5">5</a>

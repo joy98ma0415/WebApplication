@@ -85,13 +85,13 @@ namespace WebApplication {
         protected global::System.Web.UI.WebControls.Button EnterButton;
         
         /// <summary>
-        /// LabelMessage 控制項。
+        /// OutputLabelMessage 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMessage;
+        protected global::System.Web.UI.WebControls.Label OutputLabelMessage;
         
         /// <summary>
         /// LabelMessage0 控制項。
@@ -121,12 +121,12 @@ namespace WebApplication {
         protected global::System.Web.UI.WebControls.Label OutputLabel評語;
         
         /// <summary>
-        /// OutputLabelMessage 控制項。
+        /// LabelMessage 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label OutputLabelMessage;
+        protected global::System.Web.UI.WebControls.Label LabelMessage;
     }
 }
